@@ -4,14 +4,18 @@ function Navbar() {
     <div>
       <nav>
         <h1>
-          <a href="index.html">PierroVert</a>
+        <img src="logo-pierrovert.jpg" alt="logo"></img>
+          <a href="/">PierrOVert</a>
         </h1>
         <ul>
           <li>
-            <a href="#">Nos prestations</a>
+            <a href="/Services">Nos services</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="/Realisations">Nos réalisations</a>
+          </li>
+          <li>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
       </nav>
