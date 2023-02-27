@@ -2,20 +2,37 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav>
-        <h1>
-        <img src="logo-pierrovert.jpg" alt="logo"></img>
-          <a href="/">PierrOVert</a>
-        </h1>
-        <ul>
+      <nav className="md:flex justify-between items-center bg-zinc-800 h-auto p-1">
+        <div className="md:flex items-center ml-5">
+          <img
+            src="images/logo-pierrovert.png"
+            alt="logo"
+            className="h-10 mr-5"
+          ></img>
+          <h1 className="text-3xl font-bold text-green-600">
+            <a href="/">PierrOVert</a>
+          </h1>
+        </div>
+        <ul className="md:flex items-center">
           <li>
-            <a href="/Services">Nos services</a>
+            <a href="/" className="text-white">
+              Accueil
+            </a>
           </li>
           <li>
-            <a href="/Realisations">Nos réalisations</a>
+            <a href="/Services" className="text-white">
+              Nos services
+            </a>
           </li>
           <li>
-            <a href="/Contact">Contact</a>
+            <a href="/Realisations" className="text-white">
+              Nos réalisations
+            </a>
+          </li>
+          <li>
+            <a href="/Contact" className="text-white">
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
