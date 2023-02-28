@@ -2,7 +2,7 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav className="md:flex justify-between items-center bg-zinc-800 h-auto p-1">
+      <nav className="md:flex justify-between items-center bg-zinc-800 h-auto p-1 m-2 mt-1 mb-0 rounded-xl">
         <div className="md:flex items-center ml-5">
           <img
             src="images/logo-pierrovert.png"

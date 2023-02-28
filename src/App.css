@@ -1,7 +1,13 @@
-body{
+body {
   font-family: Arial, sans-serif;
-  background-color: rgb(228, 228, 228);
+  background: rgb(73, 121, 82);
+  background: linear-gradient(
+    90deg,
+    rgba(73, 121, 82, 1) 50%,
+    rgba(95, 171, 163, 1) 100%
+  );
 }
+
 nav img {
   height: 40px;
   margin-right: 10px;
@@ -20,6 +26,3 @@ li a {
 li a:hover {
   color: #298d2e;
 }
-
-
-
