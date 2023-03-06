@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: rgb(73, 121, 82);
@@ -19,5 +23,5 @@ li a {
   color: #ffffff;
 }
 li a:hover {
-  color: #036708;
+  color: #005b05;
 }
