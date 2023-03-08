@@ -11,20 +11,20 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="m-1 2xl:flex 2xl:flex-row mt-6">
-        <div className="m-2 mr-4 xl:w-1/2">
+      <div className="m-1 flex flex-col justify-center items-center lg:mt-10 2xl:flex-row ">
+        <div className="mx-2 mt-5 max-w-4xl 2xl:w-1/2">
           <img
             className="rounded-xl shadow-xl"
             src="images/Jardin-bg.jpeg"
             alt="imageHome"
           />
         </div>
-        <div className="w-full text-white p-5 m-2 mt-8 rounded-2xl h-full lg:w-max xl:w-1/2 ">
+        <div className="w-full justify-center text-white p-5 mx-2 mt-5 rounded-2xl 2xl:w-1/2 ">
           <h1 className="text-4xl font-bold mb-3 text-center">
             Votre spécialiste en Parcs et Jardins
           </h1>
           <div className="border border-double mb-2"></div>
-          <p className="text-l p-2 mb-2">
+          <p className="text-lg p-2 mb-2">
             Un entrepreneur indépendant Parcs et Jardins près de chez vous.
             <br />
             Paysagiste professionnel qualifié dans la conception, la
@@ -34,10 +34,10 @@ function Home() {
             Les services proposés peuvent être assez variés, allant du simple
             aménagement à la gestion de projets de plus grande envergure.
           </p>
-          <div className="flex flex-col justify-center items-center 2xl:flex-row">
+          <div className="flex flex-col justify-center items-center lg:flex-row">
             <Link
-              to="/Contact"
-              className="text-center max-w-sm p-5 m-1 border-gray-200 rounded-lg hover:bg-gray-100 dark:bg-zinc-800 dark:hover:bg-gray-700 flex justify-center items-center flex-col"
+              to="/contact"
+              className="text-center h-60 max-w-sm p-5 m-1 rounded-lg dark:bg-zinc-900 dark:hover:bg-black flex justify-center items-center flex-col"
             >
               <icone>
                 <IoNewspaperOutline size={56} />
@@ -50,7 +50,7 @@ function Home() {
             </Link>
             <Link
               to="/"
-              className="text-center max-w-sm p-5 m-1 border-gray-200 rounded-lg hover:bg-gray-100 dark:bg-zinc-800 dark:hover:bg-gray-700 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-5 m-1 rounded-lg dark:bg-zinc-900 dark:hover:bg-black flex justify-center items-center flex-col"
             >
               <icone>
                 <FaHandsHelping size={56} />
@@ -62,8 +62,8 @@ function Home() {
               </p>
             </Link>
             <Link
-              to="/Services"
-              className="text-center max-w-sm p-5 m-1 border-gray-200 rounded-lg hover:bg-gray-100 dark:bg-zinc-800 dark:hover:bg-gray-700 flex justify-center items-center flex-col"
+              to="/services"
+              className="text-center h-60 max-w-sm p-5 m-1 rounded-lg dark:bg-zinc-900 dark:hover:bg-black flex justify-center items-center flex-col"
             >
               <icone>
                 <GiLindenLeaf size={56} />
@@ -77,14 +77,14 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row ">
-        <div className="w-full text-white p-5 m-5 mt-5 lg:w-1/2 lg:pl-20 ">
-          <h1 className="text-center mb-4 font-bold text-4xl lg:text-left ">
-            La société PierrOVert
+      <div className="flex flex-col md:flex-row justify-center">
+        <div className="w-full text-white p-5 m-5 mt-5 lg:w-1/2">
+          <h1 className="text-center text-4xl mb-4 font-bold lg:text-left">
+            La société Pierr<span className="text-green-600">O</span>Vert
           </h1>
           <div className="border border-dashed mb-4 mr-5"></div>
           <FaQuoteLeft />
-          <p className="text-left  ml-8 mr-5 ">
+          <p className="text-left text-lg ml-8 mr-5">
             Notre société de jardinage paysager est spécialisée dans la
             création, l'aménagement et l'entretien de jardins et d'espaces
             verts. Nous sommes passionnés par la nature et l'environnement, et
@@ -117,8 +117,8 @@ function Home() {
       <h1 className="text-white font-bold text-4xl pl-10 mt-5 md:mb-10">
         Ils parlent de nous ...
       </h1>
-      <div class="grid m-5 md:mb-20 md:grid-cols-2">
-        <figure class="flex flex-col m-1 items-center justify-center p-8 text-center rounded-3xl dark:bg-zinc-800">
+      <div class="grid m-5 gap-5 md:mb-20 md:grid-cols-3">
+        <figure class="flex flex-col items-center justify-center p-8 text-center rounded-3xl dark:bg-zinc-900">
           <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 dark:text-gray-400">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
               Travail impeccable
@@ -134,7 +134,7 @@ function Home() {
             </div>
           </figcaption>
         </figure>
-        <figure class="flex flex-col ml-0 m-1 items-center justify-center p-8 text-center rounded-3xl dark:bg-zinc-800">
+        <figure class="flex flex-col items-center justify-center p-8 text-center rounded-3xl dark:bg-zinc-900">
           <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 dark:text-gray-400">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
               Travail impeccable
@@ -150,7 +150,7 @@ function Home() {
             </div>
           </figcaption>
         </figure>
-        <figure class="flex flex-col ml-0 m-1 items-center justify-center p-8 text-center rounded-3xl dark:bg-zinc-800">
+        <figure class="flex flex-col items-center justify-center p-8 text-center rounded-3xl dark:bg-zinc-900">
           <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 dark:text-gray-400">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
               Travail impeccable
@@ -163,22 +163,6 @@ function Home() {
           <figcaption class="flex items-center justify-center space-x-3">
             <div class="space-y-0.5 font-medium dark:text-white text-left">
               <div>Jese Leos</div>
-            </div>
-          </figcaption>
-        </figure>
-        <figure class="flex flex-col m-1 ml-0 items-center justify-center p-8 text-center rounded-3xl dark:bg-zinc-800">
-          <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-              Travail impeccable
-            </h3>
-            <p class="my-4 font-light">
-              Rien à redire le chantier a été effectué dans les temps et les
-              finitions sont comme je les voulais.
-            </p>
-          </blockquote>
-          <figcaption class="flex items-center justify-center space-x-3">
-            <div class="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Joseph McFall</div>
             </div>
           </figcaption>
         </figure>

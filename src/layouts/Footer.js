@@ -7,7 +7,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer class="bg-neutral-100 text-center text-neutral-600 dark:bg-zinc-800 dark:text-neutral-200 lg:text-left">
+    <footer class="bg-neutral-100 text-center dark:bg-zinc-800 dark:text-neutral-200 lg:text-left">
       <div class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div class="mr-12 hidden lg:block text-xl font-bold">
           <span>Retrouvez nous sur nos différents réseaux</span>
@@ -133,7 +133,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div class="flex justify-between font-bold bg-neutral-200 p-6 text-center dark:bg-zinc-900">
+      <div class="flex flex-col font-bold bg-neutral-200 p-6 text-center dark:bg-zinc-900 sm:flex-row sm:justify-between">
         <span>© 2023 Copyright | PierrOVert / Pierre Swinnen</span>
         <span>Design by Thomas Orlans</span>
       </div>

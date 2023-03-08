@@ -4,9 +4,9 @@ import Footer from "../layouts/Footer";
 
 function Services() {
   return (
-    <div>
-      <Navbar />
-      <h1 className="text-center bg-zinc-800 text-white border border-l-0 border-r-0 font-bold text-3xl mt-10">
+    <>
+      <Navbar/>
+      <h1 className="text-center text-white border border-l-0 border-r-0 font-bold text-3xl mt-10">
         Nos différents services
       </h1>
       <div className="flex min-h-screen justify-center">
@@ -21,7 +21,9 @@ function Services() {
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">Scarification</h1>
+              <h1 className="text-3xl mb-5 font-bold text-white">
+                Scarification
+              </h1>
               <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                 dolore adipisci placeat.
@@ -55,7 +57,9 @@ function Services() {
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">Clotures/Haies</h1>
+              <h1 className="text-3xl mb-5 font-bold text-white">
+                Clotures/Haies
+              </h1>
               <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                 dolore adipisci placeat.
@@ -154,7 +158,7 @@ function Services() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 export default Services;

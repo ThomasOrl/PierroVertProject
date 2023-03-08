@@ -1,25 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { AiOutlineClose } from "react-icons/ai";
+import { RiMenu3Fill } from "react-icons/ri";
 
 function Navbar() {
+  const [nav, setNav] = useState(false);
+  const handleNav = () => {
+    setNav(!nav);
+  };
   return (
-    <div>
-      <nav className="flex flex-col text-center lg:flex-row justify-between items-center h-auto py-4 m-2 my-0">
-        <div className="flex items-center ml-10 rounded-3xl lg:mr-20">
+    <>
+      <nav className="flex justify-between items-center py-4 m-2">
+        <div className="flex items-center">
           <img
             src="images/logo-pierrovert.png"
             alt="logo"
-            className="h-10 mr-2"
+            className="h-10"
           ></img>
-          <h1 className="text-4xl font-bold text-white">
-            <Link to="/">PierrOVert</Link>
+          <h1 className="text-white text-4xl font-bold">
+            <Link to="/">
+              Pierr<span className="text-green-600">O</span>Vert
+            </Link>
           </h1>
         </div>
-        <ul className="flex flex-col lg:flex-row lg:items-center ">
+        <ul className="hidden md:flex text-lg items-center ">
           <li>
             <Link
               to="/"
-              className="text-white font-bold lg:mx-6 relative
+              className="text-white font-bold md:mx-6 relative
                 cursor-pointer
                 transition-all
                 before:content-['']
@@ -43,7 +51,7 @@ function Navbar() {
           <li>
             <Link
               to="/services"
-              className="text-white font-bold lg:mx-6 relative
+              className="text-white font-bold md:mx-6 relative
                 cursor-pointer
                 transition-all
                 before:content-['']
@@ -61,13 +69,13 @@ function Navbar() {
                 hover:before:w-full
                 hover:before:opacity-100"
             >
-              Nos services
+              Services
             </Link>
           </li>
           <li>
             <Link
               to="/realisations"
-              className="text-white font-bold lg:mx-6 relative
+              className="text-white font-bold md:mx-6 relative
                 cursor-pointer
                 transition-all
                 before:content-['']
@@ -85,13 +93,13 @@ function Navbar() {
                 hover:before:w-full
                 hover:before:opacity-100"
             >
-              Nos réalisations
+              Réalisations
             </Link>
           </li>
           <li>
             <Link
               to="/contact"
-              className="text-white font-bold lg:mx-6 relative
+              className="text-white font-bold md:mx-6 relative
                 cursor-pointer
                 transition-all
                 before:content-['']
@@ -113,8 +121,36 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        <div onClick={handleNav} className=" text-white block md:hidden">
+          {nav ? <AiOutlineClose size={28} /> : <RiMenu3Fill size={28} />}
+        </div>
+        <div
+          className={
+            nav
+              ? "fixed left-0 top-0 w-[70%] h-full border-r border-r-gray-600 bg-black ease-in-out duration-500"
+              : "fixed left-[-100%]"
+          }
+        >
+          <h1 className="text-4xl font-bold text-white p-4">
+            Pierr<span className="text-green-600">O</span>Vert
+          </h1>
+          <ul className="flex flex-col p-4 ">
+            <li className="text-white border-b border-gray-600 font-bold p-4">
+              <Link to="/">Accueil</Link>
+            </li>
+            <li className="text-white border-b border-gray-600 font-bold p-4">
+              <Link to="/services">Services</Link>
+            </li>
+            <li className="text-white border-b border-gray-600 font-bold p-4">
+              <Link to="/realisations">Réalisations</Link>
+            </li>
+            <li className="text-white font-bold p-4">
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </div>
+    </>
   );
 }
 
