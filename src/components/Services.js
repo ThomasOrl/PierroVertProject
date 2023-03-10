@@ -5,14 +5,16 @@ import Footer from "../layouts/Footer";
 function Services() {
   return (
     <>
-      <Navbar/>
+      <div className="relative z-10">
+        <Navbar />
+      </div>
       <h1 className="text-center text-white border border-l-0 border-r-0 font-bold text-3xl mt-10">
         Nos différents services
       </h1>
-      <div className="flex min-h-screen justify-center">
-        <div className="grid grid-cols-1 my-20 gap-10 md:grid-cols-2 lg:grid-cols-4">
+      <div className="relative z-0 flex min-h-screen justify-center">
+        <div className="grid grid-cols-1 my-20 mx-10 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="images/scarification.jpeg"
@@ -31,7 +33,7 @@ function Services() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="images/pelouse.jpeg"
@@ -48,7 +50,7 @@ function Services() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="images/cloture.jpeg"
@@ -67,7 +69,7 @@ function Services() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="images/plantation.jpeg"
@@ -86,7 +88,7 @@ function Services() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -103,7 +105,7 @@ function Services() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -120,7 +122,7 @@ function Services() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
@@ -137,7 +139,7 @@ function Services() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-72">
+            <div className="h-96 w-80">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
                 src="https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"

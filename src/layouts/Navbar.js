@@ -8,6 +8,7 @@ function Navbar() {
   const handleNav = () => {
     setNav(!nav);
   };
+
   return (
     <>
       <nav className="flex justify-between items-center py-4 m-2">
@@ -28,22 +29,7 @@ function Navbar() {
             <Link
               to="/"
               className="text-white font-bold md:mx-6 relative
-                cursor-pointer
-                transition-all
-                before:content-['']
-                before:absolute
-                before:-bottom-2
-                before:left-0
-                before:w-0
-                before:h-1
-                before:opacity-0
-                before:transition-all
-                before:duration-500
-                before:bg-gradient-to-r
-                before:from-green-600
-                before:to-green-800
-                hover:before:w-full
-                hover:before:opacity-100"
+              list-item"
             >
               Accueil
             </Link>
@@ -52,22 +38,7 @@ function Navbar() {
             <Link
               to="/services"
               className="text-white font-bold md:mx-6 relative
-                cursor-pointer
-                transition-all
-                before:content-['']
-                before:absolute
-                before:-bottom-2
-                before:left-0
-                before:w-0
-                before:h-1
-                before:opacity-0
-                before:transition-all
-                before:duration-500
-                before:bg-gradient-to-r
-                before:from-green-600
-                before:to-green-800
-                hover:before:w-full
-                hover:before:opacity-100"
+                list-item"
             >
               Services
             </Link>
@@ -76,22 +47,7 @@ function Navbar() {
             <Link
               to="/realisations"
               className="text-white font-bold md:mx-6 relative
-                cursor-pointer
-                transition-all
-                before:content-['']
-                before:absolute
-                before:-bottom-2
-                before:left-0
-                before:w-0
-                before:h-1
-                before:opacity-0
-                before:transition-all
-                before:duration-500
-                before:bg-gradient-to-r
-                before:from-green-600
-                before:to-green-800
-                hover:before:w-full
-                hover:before:opacity-100"
+                list-item"
             >
               Réalisations
             </Link>
@@ -100,22 +56,7 @@ function Navbar() {
             <Link
               to="/contact"
               className="text-white font-bold md:mx-6 relative
-                cursor-pointer
-                transition-all
-                before:content-['']
-                before:absolute
-                before:-bottom-2
-                before:left-0
-                before:w-0
-                before:h-1
-                before:opacity-0
-                before:transition-all
-                before:duration-500
-                before:bg-gradient-to-r
-                before:from-green-600
-                before:to-green-800
-                hover:before:w-full
-                hover:before:opacity-100"
+                list-item"
             >
               Contact
             </Link>
