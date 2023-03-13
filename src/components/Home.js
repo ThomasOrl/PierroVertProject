@@ -21,7 +21,7 @@ function Home() {
         </div>
         <div className="w-full justify-center text-white p-5 mx-2 mt-5 rounded-2xl 2xl:w-1/2 ">
           <h1 className="text-4xl font-bold mb-3 text-center">
-            Votre spécialiste en Parcs et Jardins
+            Votre spécialist en Parcs et Jardins
           </h1>
           <div className="border border-double mb-2"></div>
           <p className="text-lg p-2 mb-2">
