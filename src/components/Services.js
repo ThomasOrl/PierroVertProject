@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 function Services() {
   return (
@@ -12,149 +13,229 @@ function Services() {
         Nos différents services
       </h1>
       <div className="relative z-0 flex min-h-screen justify-center">
-        <div className="grid grid-cols-1 my-20 mx-10 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="images/scarification.jpeg"
-                alt=""
-              />
+        <div className="grid grid-cols-1 my-10 mx-10 gap-10 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/scarification.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Scarification
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">
-                Scarification
-              </h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Scarification</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="images/pelouse.jpeg"
-                alt=""
-              />
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/pelouse.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Pelouses
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5  font-bold text-white">Pelouses</h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Pelouses</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="images/cloture.jpeg"
-                alt=""
-              />
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/cloture.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Clotures/ Haies
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">
-                Clotures/Haies
-              </h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Clotures/ Haies</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="images/plantation.jpeg"
-                alt=""
-              />
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/plantation.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Plantations
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">
-                Plantations
-              </h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Plantations</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                alt=""
-              />
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/scarification.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Scarification
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">Beauty</h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Scarification</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                alt=""
-              />
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/scarification.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Scarification
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">Beauty</h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Scarification</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
-                alt=""
-              />
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/scarification.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Scarification
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">Builder</h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Scarification</p>
             </div>
           </div>
-          <div className="group relative cursor-pointer items-center justify-center rounded-xl overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div className="h-96 w-80">
-              <img
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
-                alt=""
-              />
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+                  src="images/scarification.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="flex min-h-full flex-col items-center justify-center">
+                  <h1 className="text-3xl font-bold text-green-600">
+                    Scarification
+                  </h1>
+                  <p className="text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 className="text-3xl mb-5 font-bold text-white">
-                Shooting Star
-              </h1>
-              <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                dolore adipisci placeat.
-              </p>
+            <div className="relative inset-x-0 bottom-0 flex justify-center mt-2">
+              <BsFillArrowUpCircleFill
+                size={28}
+                className="text-green-600 mr-1"
+              />
+              <p className="text-white text-2xl">Scarification</p>
             </div>
           </div>
         </div>

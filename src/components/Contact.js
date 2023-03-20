@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
 
-
 function Contact() {
   return (
     <>
@@ -11,7 +10,7 @@ function Contact() {
         Contactez-nous!
       </h1>
       <div className="flex justify-center">
-        <div className="container rounded-3xl mx-10 my-20 max-w-3xl border bg-white bg-opacity-20">
+        <div className="container rounded-3xl mx-10 my-20 max-w-3xl border bg-white bg-opacity-10">
           <div className="p-5 space-y-5 shadow-xl">
             <h4 className="text-center text-white font-semibold text-xl uppercase">
               formulaire de contact

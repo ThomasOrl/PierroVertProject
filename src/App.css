@@ -4,7 +4,6 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  
 
   background: rgb(45, 70, 51);
   background: linear-gradient(
@@ -15,7 +14,7 @@ body {
 }
 
 li a:hover {
-  color: #019003;
+  color: rgb(33, 32, 32);
 }
 .list-item::before {
   content: "";
@@ -25,12 +24,71 @@ li a:hover {
   width: 0;
   height: 4px;
   opacity: 0;
-  background: linear-gradient(to right, #019003, #015c42);
-  transition: all 0.5s;
+  background: linear-gradient(to right, #019003, #006b4d);
+  transition: all 0.8s;
+}
+.list-item::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: 0;
+  width: 0;
+  height: 4px;
+  opacity: 0;
+  background: linear-gradient(to left, #019003, #006b4d);
+  transition: all 0.8s;
 }
 
 .list-item:hover::before {
   width: 100%;
   opacity: 1;
 }
-
+.list-item:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+.swiper {
+  width: 1200px;
+  height: 680px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00d419 !important;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ffffff !important;
+}
+.swiper-pagination-bullet {
+  background-color: #646464 !important; /* Mettre la couleur de fond à vert */
+  opacity: 1 !important; /* Mettre l'opacité à 1 pour rendre le point de pagination visible */
+}
+.swiper-pagination-bullet-active {
+  background-color: #00d419 !important; 
+  border: 1px solid white;
+}
+@media (max-width: 1220px) {
+  .swiper {
+    width: 850px;
+    height: 440px;
+  }
+}
+@media (max-width: 860px) {
+  .swiper {
+    width: 600px;
+    height: 320px;
+  }
+}
+@media (max-width: 610px) {
+  .swiper {
+    width: 370px;
+    height: 200px;
+  }
+}
+@media (max-width: 370px) {
+  .swiper {
+    width: 240px;
+    height: 150px;
+  }
+  
+}
