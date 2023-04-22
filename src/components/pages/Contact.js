@@ -26,7 +26,7 @@ function Contact() {
           console.log(error.text);
         }
       );
-    Swal.fire("Félicitation!", "Votre mail a bien été envoyer!", "success");
+    Swal.fire("Félicitation!", "Votre mail a bien été envoyé!", "success");
     e.target.reset();
   };
 
