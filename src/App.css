@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman',serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
   background: rgb(45, 70, 51);
   background: linear-gradient(
@@ -62,7 +62,7 @@ body {
   opacity: 2 !important; /* Mettre l'opacité à 1 pour rendre le point de pagination visible */
 }
 .swiper-pagination-bullet-active {
-  background-color: #00d419 !important; 
+  background-color: #00d419 !important;
   border: 1px solid white;
 }
 @media (max-width: 1220px) {
@@ -88,5 +88,4 @@ body {
     width: 240px;
     height: 150px;
   }
-  
 }
