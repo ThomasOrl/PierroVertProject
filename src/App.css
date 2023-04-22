@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman',serif;
 
   background: rgb(45, 70, 51);
   background: linear-gradient(
@@ -13,9 +13,6 @@ body {
   );
 }
 
-li a:hover {
-  color: rgb(33, 32, 32);
-}
 .list-item::before {
   content: "";
   position: absolute;
@@ -47,6 +44,7 @@ li a:hover {
   width: 100%;
   opacity: 1;
 }
+
 .swiper {
   width: 1200px;
   height: 680px;
@@ -61,7 +59,7 @@ li a:hover {
 }
 .swiper-pagination-bullet {
   background-color: #646464 !important; /* Mettre la couleur de fond à vert */
-  opacity: 1 !important; /* Mettre l'opacité à 1 pour rendre le point de pagination visible */
+  opacity: 2 !important; /* Mettre l'opacité à 1 pour rendre le point de pagination visible */
 }
 .swiper-pagination-bullet-active {
   background-color: #00d419 !important; 
