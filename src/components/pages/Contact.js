@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
 import Swal from "sweetalert2";
-import {HiDocumentText} from "react-icons/hi";
+import { HiDocumentText } from "react-icons/hi";
 
 function Contact() {
   const form = useRef();
@@ -37,9 +37,8 @@ function Contact() {
         Contactez-Nous!
       </h1>
       <div className="flex justify-center">
-        
         <div className="container rounded-3xl mx-10 my-20 max-w-3xl border bg-black bg-opacity-30">
-            <HiDocumentText size={38} className="text-white mx-auto mt-5" />
+          <HiDocumentText size={38} className="text-white mx-auto mt-5" />
           <div className="p-5 space-y-5 shadow-xl">
             <form ref={form} onSubmit={sendEmail}>
               <div className="grid grid-cols-2 gap-5">
