@@ -27,7 +27,11 @@ function Services() {
                 <div className="flex min-h-full flex-col items-center justify-center">
                   <h1 className="text-3xl font-bold text-green-600">Elagage</h1>
                   <p className="text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    L'élagage consiste à tailler certaines parties de l'arbre,
+                    comme les branches, pour favoriser sa croissance, améliorer
+                    sa santé ou pour des raisons esthétiques. Différentes
+                    techniques d'élagage existent en fonction des besoins de
+                    l'arbre.
                   </p>
                 </div>
               </div>
@@ -55,7 +59,11 @@ function Services() {
                     Abattage
                   </h1>
                   <p className="text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    L'abattage d'un arbre consiste à le couper et à le faire
+                    tomber au sol en toute sécurité. Cette opération peut être
+                    réalisée pour des raisons de sécurité, de développement
+                    urbain, de construction ou encore pour éliminer un arbre
+                    malade ou mort.
                   </p>
                 </div>
               </div>
@@ -83,7 +91,13 @@ function Services() {
                     Entretien de jardins
                   </h1>
                   <p className="text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    L'entretien de jardins consiste à maintenir les plantes en
+                    bonne santé, à les tailler régulièrement pour assurer leur
+                    croissance, leur esthétisme. Les tâches peuvent inclure la
+                    tonte de pelouse, le désherbage, la taille de haies,
+                    l'arrosage en fonction des besoins spécifiques des plantes.
+                    Un entretien régulier est nécessaire pour assurer la beauté
+                    et la santé des jardins et des haies.
                   </p>
                 </div>
               </div>
@@ -111,7 +125,13 @@ function Services() {
                     Tonte de pelouses
                   </h1>
                   <p className="text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    La tonte de pelouse est une tâche d'entretien régulière qui
+                    consiste à couper l'herbe à une hauteur uniforme pour
+                    maintenir un gazon dense et sain. La fréquence de tonte
+                    dépend de la croissance de l'herbe et de la saison, et peut
+                    varier de quelques jours à quelques semaines. Un entretien
+                    régulier de la pelouse permet de maintenir un espace vert
+                    agréable et esthétique.
                   </p>
                 </div>
               </div>
@@ -139,7 +159,14 @@ function Services() {
                     Plantations
                   </h1>
                   <p className="text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    La plantation est une technique d'aménagement qui consiste à
+                    installer des plantes dans un jardin ou un espace vert pour
+                    fournir une barrière de protection, un écran de
+                    confidentialité ou un élément décoratif. Les étapes de la
+                    plantation comprennent la préparation du sol, la sélection
+                    des plantes adaptées aux conditions du site, la disposition
+                    des plantes selon un motif désiré, la plantation et
+                    l'arrosage initial.
                   </p>
                 </div>
               </div>
@@ -168,7 +195,13 @@ function Services() {
                     Scarification
                   </h1>
                   <p className="text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                    L'aménagement de terrain est une activité d'embellissement
+                    et de transformation de la surface d'un terrain. Il peut
+                    inclure la création de nouvelles structures, la rénovation
+                    de structures existantes, la plantation de plantes, la
+                    construction de murs de soutènement, la pose de clôtures. Un
+                    bon aménagement de terrain peut augmenter la valeur de la
+                    propriété et améliorer la qualité de vie des occupants.
                   </p>
                 </div>
               </div>
@@ -181,7 +214,6 @@ function Services() {
               <p className="text-white text-2xl">Aménagements</p>
             </div>
           </div>
-          
         </div>
       </div>
       <Footer />
