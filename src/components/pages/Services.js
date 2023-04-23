@@ -15,7 +15,7 @@ function Services() {
       <div className="relative z-0 flex min-h-screen justify-center">
         <div className="grid grid-cols-1 my-10 mx-10 gap-20 md:grid-cols-2 lg:grid-cols-3">
           <div className="group h-96 w-80 [perspective:1000px] ">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -45,7 +45,7 @@ function Services() {
             </div>
           </div>
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -77,7 +77,7 @@ function Services() {
             </div>
           </div>
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -110,7 +110,7 @@ function Services() {
             </div>
           </div>
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -144,7 +144,7 @@ function Services() {
             </div>
           </div>
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -178,7 +178,7 @@ function Services() {
           </div>
 
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
