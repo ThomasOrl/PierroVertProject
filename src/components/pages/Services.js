@@ -14,8 +14,8 @@ function Services() {
       </h1>
       <div className="relative z-0 flex min-h-screen justify-center">
         <div className="grid grid-cols-1 my-10 mx-10 gap-20 md:grid-cols-2 lg:grid-cols-3">
-          <div className="group h-96 w-85 [perspective:1000px] ">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)]">
+          <div className="group h-96 w-80 [perspective:1000px] ">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -44,8 +44,8 @@ function Services() {
               <p className="text-white text-2xl">Elagage</p>
             </div>
           </div>
-          <div className="group h-96 w-85 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)]">
+          <div className="group h-96 w-80 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -77,7 +77,7 @@ function Services() {
             </div>
           </div>
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -110,7 +110,7 @@ function Services() {
             </div>
           </div>
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -124,8 +124,8 @@ function Services() {
                     Tonte pelouse
                   </h1>
                   <p className="text-base">
-                    La tonte de la pelouse est une tâche d'entretien régulière qui
-                    consiste à couper l'herbe à une hauteur uniforme pour
+                    La tonte de la pelouse est une tâche d'entretien régulière
+                    qui consiste à couper l'herbe à une hauteur uniforme pour
                     maintenir un gazon dense et sain. La fréquence de tonte
                     dépend de la croissance de l'herbe et de la saison, et peut
                     varier de quelques jours à quelques semaines. Un entretien
@@ -144,7 +144,7 @@ function Services() {
             </div>
           </div>
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -178,7 +178,7 @@ function Services() {
           </div>
 
           <div className="group h-96 w-80 [perspective:1000px]">
-            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-active:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
