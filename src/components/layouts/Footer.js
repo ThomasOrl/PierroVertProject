@@ -24,7 +24,7 @@ function Footer() {
             </Link>
 
             <Link
-              to=""
+              to="https://www.facebook.com/profile.php?id=100092207318781"
               type="button"
               className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase"
             >
