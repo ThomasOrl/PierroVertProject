@@ -13,7 +13,7 @@ function Services() {
         Nos Services
       </h1>
       <div className="relative z-0 flex min-h-screen justify-center">
-        <div className="grid grid-cols-1 my-10 mx-10 gap-20 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 my-10 mx-5 gap-20 grid-cols-medium grid-cols-large">
           <div className="group h-96 w-80 [perspective:1000px] ">
             <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">

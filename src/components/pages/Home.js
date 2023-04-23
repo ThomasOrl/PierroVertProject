@@ -37,7 +37,7 @@ function Home() {
           <div className="flex flex-col text-lg justify-center items-center lg:flex-row">
             <Link
               to="/contact"
-              className="text-center h-60 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
                 <IoNewspaperOutline size={56} />
@@ -50,7 +50,7 @@ function Home() {
             </Link>
             <Link
               to="/"
-              className="text-center h-60 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
                 <FaHandsHelping size={56} />
@@ -63,7 +63,7 @@ function Home() {
             </Link>
             <Link
               to="/services"
-              className="text-center h-60 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
                 <GiLindenLeaf size={56} />

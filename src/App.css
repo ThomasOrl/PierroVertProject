@@ -85,7 +85,21 @@ body {
 }
 @media (max-width: 370px) {
   .swiper {
-    width: 240px;
-    height: 150px;
+    width: 270px;
+    height: 180px;
+  }
+}
+
+/* breakpoint cards écrans de taille moyenne (768-1119px) */
+@media (min-width: 768px) and (max-width: 1119px) {
+  .grid-cols-medium {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* breakpoint cards Pour les écrans plus larges (1120px et plus) */
+@media (min-width: 1120px) {
+  .grid-cols-large {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
