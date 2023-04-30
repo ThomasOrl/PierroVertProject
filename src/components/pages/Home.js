@@ -8,6 +8,11 @@ import { FaHandsHelping } from "react-icons/fa";
 import { FaQuoteLeft } from "react-icons/fa";
 
 function Home() {
+  const handleClick = () => {
+    // Positionner la page tout en haut lors du click sur les liens Devis et Specialisation
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <Navbar />
@@ -37,6 +42,7 @@ function Home() {
           <div className="flex flex-col text-lg justify-center items-center lg:flex-row">
             <Link
               to="/contact"
+              onClick={handleClick}
               className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
@@ -63,6 +69,7 @@ function Home() {
             </Link>
             <Link
               to="/services"
+              onClick={handleClick}
               className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
