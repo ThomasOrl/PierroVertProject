@@ -103,3 +103,56 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.title-pages {
+  background: linear-gradient(to left, rgba(255,255,255,0), rgba(20, 20, 20, 0.409), rgba(255,255,255,0)), 
+              linear-gradient(to right, rgba(255,255,255,0), rgba(20, 20, 20, 0.405), rgba(255,255,255,0));
+}
+.animate-slide-in-left {
+  animation-name: slide-in-left;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation-name: slide-in-right;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(+100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-slide-in-bottom {
+  animation-name: slide-in-bottom;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(+100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

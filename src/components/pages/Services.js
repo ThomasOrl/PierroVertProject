@@ -9,11 +9,11 @@ function Services() {
       <div className="relative z-10">
         <Navbar />
       </div>
-      <h1 className="text-center text-white italic font-bold bg-black bg-opacity-30 py-5 text-3xl my-10">
+      <h1 className="text-center text-white italic font-bold py-3 text-3xl my-10 title-pages">
         Nos Services
       </h1>
-      <div className="relative z-0 flex min-h-screen justify-center">
-        <div className="grid grid-cols-1 my-10 mx-5 gap-20 grid-cols-medium grid-cols-large">
+      <div className="relative z-0 flex min-h-screen justify-center animate-slide-in-bottom">
+        <div className="grid grid-cols-1 my-10 mx-5 gap-20 grid-cols-medium grid-cols-large ">
           <div className="group h-96 w-80 [perspective:1000px] ">
             <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] xl:group-hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0">

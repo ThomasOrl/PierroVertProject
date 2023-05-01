@@ -12,11 +12,10 @@ function Home() {
     // Positionner la page tout en haut lors du click sur les liens Devis et Specialisation
     window.scrollTo(0, 0);
   };
-
   return (
     <>
       <Navbar />
-      <div className="m-1 flex flex-col justify-center items-center lg:mt-10 2xl:flex-row ">
+      <div className=" m-1 flex flex-col justify-center items-center lg:mt-10 2xl:flex-row opacity-0 animate-slide-in-left">
         <div className="mx-2 mt-5 max-w-4xl">
           <img
             className="rounded-xl shadow-xl md:h-[500px]"
@@ -28,8 +27,8 @@ function Home() {
           <h1 className="text-4xl font-bold mb-3 text-center">
             Votre spécialiste en Parcs et Jardins
           </h1>
-          <div className="border border-double mb-2"></div>
-          <p className="text-lg p-2 mb-2">
+          <div className=" border border-double mb-2"></div>
+          <p className=" text-lg p-2 mb-2">
             Un entrepreneur indépendant en Parcs et Jardins près de chez vous.
             <br />
             Paysagiste professionnel qualifié dans la conception, la
@@ -84,7 +83,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row sm:my-20 mx-10 justify-center">
+      <div className="flex flex-col md:flex-row sm:my-20 mx-10 justify-center animate-slide-in-right">
         <div className="w-full text-white p-5 xl:w-1/2">
           <h1 className="text-center text-4xl mb-4 font-bold lg:text-left">
             La société Pierr<span className="text-green-600">O</span>Vert

@@ -33,11 +33,11 @@ function Contact() {
   return (
     <>
       <Navbar />
-      <h1 className="text-center text-white italic bg-black bg-opacity-30 py-5 font-bold text-3xl mt-10">
+      <h1 className="text-center text-white italic title-pages py-3 font-bold text-3xl mt-10">
         Contactez-Nous!
       </h1>
       <div className="flex justify-center">
-        <div className="container rounded-3xl mx-10 my-20 max-w-3xl border bg-black bg-opacity-30">
+        <div className="container rounded-3xl mx-10 my-20 max-w-3xl border bg-black bg-opacity-30 animate-slide-in-bottom">
           <HiDocumentText size={38} className="text-white mx-auto mt-5" />
           <div className="p-5 space-y-5 shadow-xl">
             <form ref={form} onSubmit={sendEmail}>
