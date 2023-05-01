@@ -14,8 +14,10 @@ function Home() {
   };
   return (
     <>
-      <Navbar />
-      <div className=" m-1 flex flex-col justify-center items-center lg:mt-10 2xl:flex-row opacity-0 animate-slide-in-left">
+      <div className="relative z-10">
+        <Navbar />
+      </div>
+      <div className=" m-1 flex flex-col justify-center items-center lg:mt-10 xl:flex-row opacity-0 animate-slide-in-left">
         <div className="mx-2 mt-5 max-w-4xl">
           <img
             className="rounded-xl shadow-xl md:h-[500px]"
@@ -23,7 +25,7 @@ function Home() {
             alt="imageHome"
           />
         </div>
-        <div className="w-full justify-center text-white p-5 mx-2 mt-5 rounded-2xl 2xl:w-1/2 ">
+        <div className="w-full justify-center text-white p-5 mx-2 mt-5 rounded-2xl xl:w-1/2 ">
           <h1 className="text-4xl font-bold mb-3 text-center">
             Votre spécialiste en Parcs et Jardins
           </h1>
@@ -38,52 +40,56 @@ function Home() {
             Les services proposés peuvent être assez variés, allant de
             l'aménagement à la gestion d'un projet de plus grande envergure.
           </p>
-          <div className="flex flex-col text-lg justify-center items-center lg:flex-row">
+          <div className="flex flex-col font-bold justify-center items-center lg:flex-row">
             <Link
               to="/contact"
               onClick={handleClick}
-              className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
-                <IoNewspaperOutline size={56} />
+                <IoNewspaperOutline size={50} />
               </icone>
-              <h2 className="font-bold text-green-600">Devis gratuit</h2>
-              <p className="font-normal text-white">
+              <h2 className="font-bold text-lg text-green-600">
+                Devis gratuit
+              </h2>
+              <p className="text-white">
                 Nous offrons des consultations gratuites pour nos services et
-                vous fournirons une offre adaptée en fonction de vos besoins.
+                vous fournirons une offre adaptée à vos besoins.
               </p>
             </Link>
             <Link
               to="/"
-              className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
-                <FaHandsHelping size={56} />
+                <FaHandsHelping size={52} />
               </icone>
-              <h2 className="font-bold text-green-600 ">Fiabilité garantie</h2>
-              <p className="font-normal text-white">
-                Nous sommes fiers du travail bien fait que nous proposons à nos
-                clients.
+              <h2 className="font-bold text-lg text-green-600 ">Fiabilité</h2>
+              <p className="text-white">
+                Nous sommes fiers du travail bien fait que nous proposons à
+                notre clientèle.
               </p>
             </Link>
             <Link
               to="/services"
               onClick={handleClick}
-              className="text-center h-64 max-w-sm p-5 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
             >
               <icone>
-                <GiLindenLeaf size={56} />
+                <GiLindenLeaf size={50} />
               </icone>
-              <h2 className="font-bold text-green-600">Spécialisation</h2>
-              <p className="font-normal text-white">
-                Nous sommes spécialisés dans l'aménagement et l'entretien
-                d'espaces verts, l'abattage et l'élagage.
+              <h2 className="font-bold text-lg text-green-600">
+                Spécialisation
+              </h2>
+              <p className="text-white">
+                Specialistes en aménagement et entretien d'espaces verts,
+                abattage et élagage.
               </p>
             </Link>
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row sm:my-20 mx-10 justify-center animate-slide-in-right">
+      <div className="flex flex-col md:flex-row sm:my-20 mx-1 sm:mx-10 justify-center animate-slide-in-right">
         <div className="w-full text-white p-5 xl:w-1/2">
           <h1 className="text-center text-4xl mb-4 font-bold lg:text-left">
             La société Pierr<span className="text-green-600">O</span>Vert

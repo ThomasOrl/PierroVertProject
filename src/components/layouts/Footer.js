@@ -62,8 +62,15 @@ function Footer() {
         </div>
         <div className="border border-white border-opacity-50 mb-2"></div>
         <div className="flex flex-col text-center text-white px-4 py-4 sm:flex-row sm:justify-between">
-          <span>© 2023 Copyright | PierroVert</span>
-          <span>Design by ThomasOrlans</span>
+          <span className="flex flex-row justify-center items-center">
+            © 2023 Copyright | PierroVert
+          </span>
+          <Link to="https://github.com/ThomasOrl" type="button">
+            <span className="flex flex-row justify-center items-center">
+              <img src="images/OT-logo.png" alt="logo" className="h-11"></img>
+              Design by ThomasOrlans
+            </span>
+          </Link>
         </div>
       </footer>
     </>

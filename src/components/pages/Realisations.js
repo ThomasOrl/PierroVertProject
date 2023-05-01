@@ -39,7 +39,7 @@ function Realisations() {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container my-20 rounded-2xl animate-slide-in-bottom"
+        className="swiper_container my-5 sm:my-20 rounded-2xl animate-slide-in-bottom"
       >
         <SwiperSlide>
           <img src="images/pic-1-gal.jpeg" alt="slide_image" />
