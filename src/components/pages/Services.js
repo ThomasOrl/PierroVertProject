@@ -9,7 +9,7 @@ function Services() {
       <div className="relative z-10">
         <Navbar />
       </div>
-      <h1 className="text-center text-white italic font-bold py-3 text-3xl my-10 title-pages">
+      <h1 className="text-center text-white italic font-bold py-3 text-2xl my-10 title-pages">
         Nos Services
       </h1>
       <div className="relative z-0 flex min-h-screen justify-center animate-slide-in-left">

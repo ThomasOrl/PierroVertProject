@@ -12,7 +12,9 @@ body {
     rgba(49, 94, 66, 1) 100%
   );
 }
-
+.navStyle {
+  font-family: "Courier New", Courier, monospace;
+}
 .list-item::before {
   content: "";
   position: absolute;
@@ -58,8 +60,8 @@ body {
   color: #ffffff !important;
 }
 .swiper-pagination-bullet {
-  background-color: #646464 !important; /* Mettre la couleur de fond à vert */
-  opacity: 2 !important; /* Mettre l'opacité à 1 pour rendre le point de pagination visible */
+  background-color: #646464 !important; 
+  opacity: 2 !important; 
 }
 .swiper-pagination-bullet-active {
   background-color: #00d419 !important;
@@ -104,8 +106,19 @@ body {
   }
 }
 .title-pages {
-  background: linear-gradient(to left, rgba(255,255,255,0), rgba(20, 20, 20, 0.409), rgba(255,255,255,0)), 
-              linear-gradient(to right, rgba(255,255,255,0), rgba(20, 20, 20, 0.405), rgba(255,255,255,0));
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(20, 20, 20, 0.409),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(20, 20, 20, 0.405),
+      rgba(255, 255, 255, 0)
+    );
 }
 .animate-slide-in-left {
   animation-name: slide-in-left;

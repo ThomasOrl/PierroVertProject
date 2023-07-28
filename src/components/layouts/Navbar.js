@@ -11,20 +11,20 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center py-4 m-2">
+      <nav className="navStyle flex justify-between items-center py-4 m-2">
         <div className="flex items-center">
           <img
             src="images/logo-pierrovert.png"
             alt="logo"
             className="h-10"
           ></img>
-          <h1 className="text-white text-4xl font-bold">
+          <h1 className="text-white text-3xl font-bold">
             <Link to="/">
               Pierr<span className="text-green-600">O</span>Vert
             </Link>
           </h1>
         </div>
-        <ul className="hidden md:flex text-xl italic items-center">
+        <ul className="hidden lg:flex text-lg italic items-center">
           <li>
             <Link
               to="/"
@@ -62,7 +62,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <div onClick={handleNav} className=" text-white block md:hidden">
+        <div onClick={handleNav} className=" text-white block lg:hidden">
           {nav ? <AiOutlineClose size={28} /> : <RiMenu3Fill size={28} />}
         </div>
         <div
@@ -72,10 +72,10 @@ function Navbar() {
               : "fixed left-[-100%]"
           }
         >
-          <h1 className="text-4xl font-bold text-white p-4">
+          <h1 className="text-3xl font-bold text-white p-4">
             Pierr<span className="text-green-600">O</span>Vert
           </h1>
-          <ul className="flex flex-col text-xl italic p-4">
+          <ul className="flex flex-col text-lg italic p-4">
             <li className="text-white border-b border-gray-600 font-bold p-4 hover:text-green-600">
               <Link to="/">Accueil</Link>
             </li>

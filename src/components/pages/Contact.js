@@ -35,7 +35,7 @@ function Contact() {
       <div className="relative z-10">
         <Navbar />
       </div>
-      <h1 className="text-center text-white italic title-pages py-3 font-bold text-3xl mt-10">
+      <h1 className="text-center text-white italic title-pages py-3 font-bold text-2xl mt-10">
         Contactez-Nous!
       </h1>
       <div className="flex justify-center animate-slide-in-bottom">

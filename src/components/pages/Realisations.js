@@ -17,7 +17,7 @@ function Realisations() {
       <div className="relative z-10">
         <Navbar />
       </div>
-      <h1 className="text-center text-white italic title-pages py-3 font-bold text-3xl mt-10">
+      <h1 className="text-center text-white italic title-pages py-3 font-bold text-2xl mt-10">
         Nos Réalisations
       </h1>
       <Swiper
@@ -39,7 +39,7 @@ function Realisations() {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container my-5 sm:my-20 rounded-2xl animate-slide-in-bottom"
+        className="swiper_container my-5 sm:my-20 rounded-lg animate-slide-in-bottom"
       >
         <SwiperSlide>
           <img src="images/pic-1-gal.jpeg" alt="slide_image" />
@@ -64,9 +64,6 @@ function Realisations() {
         </SwiperSlide>
         <SwiperSlide>
           <img src="images/pic-8-gal.jpeg" alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/pic-9-gal.jpeg" alt="slide_image" />
         </SwiperSlide>
 
         <div className="slider-controler">
