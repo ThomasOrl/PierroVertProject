@@ -42,7 +42,19 @@ function Realisations() {
         className="swiper_container my-5 sm:my-20 rounded-lg animate-slide-in-bottom"
       >
         <SwiperSlide>
-          <img src="images/pic-1-gal.jpeg" alt="slide_image" />
+          <img src="images/pic-1-gal.jpg" alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/pic-6-gal.jpg" alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/pic-7-gal.jpg" alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/pic-8-gal.jpg" alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/pic-9-gal.jpeg" alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="images/pic-2-gal.jpeg" alt="slide_image" />
@@ -55,15 +67,6 @@ function Realisations() {
         </SwiperSlide>
         <SwiperSlide>
           <img src="images/pic-5-gal.jpeg" alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/pic-6-gal.jpeg" alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/pic-7-gal.jpeg" alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/pic-8-gal.jpeg" alt="slide_image" />
         </SwiperSlide>
 
         <div className="slider-controler">
