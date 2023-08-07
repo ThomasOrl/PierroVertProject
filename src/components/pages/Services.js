@@ -30,7 +30,7 @@ function Services() {
                     L'élagage consiste à tailler certaines parties de l'arbre,
                     comme les branches, pour favoriser sa croissance, améliorer
                     sa santé ou pour des raisons esthétiques. Différentes
-                    techniques d'élagage existent en fonction des besoins de
+                    techniques d'élagages existent en fonction des besoins de
                     l'arbre.
                   </p>
                 </div>
@@ -96,7 +96,7 @@ function Services() {
                     croissance, leur esthétisme. Les tâches peuvent être
                     diverses en fonction des besoins spécifiques des plantes. Un
                     entretien régulier est nécessaire pour assurer la beauté et
-                    la santé du jardins et des haies.
+                    la santé du jardin et des haies.
                   </p>
                 </div>
               </div>

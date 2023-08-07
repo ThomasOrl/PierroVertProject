@@ -82,8 +82,8 @@ function Home() {
                 Spécialisation
               </h2>
               <p className="text-white">
-                Specialistes en aménagement et entretien d'espaces verts,
-                abattage et élagage.
+                Specialistes en aménagements et entretiens d'espaces verts,
+                abattages et élagages.
               </p>
             </Link>
           </div>
@@ -97,24 +97,26 @@ function Home() {
           <div className="border border-dashed mb-4 mr-5"></div>
           <FaQuoteLeft />
           <p className="text-left text-lg ml-8 mr-5">
-            Notre société de jardinage est spécialisée dans la création,
-            l'aménagement et l'entretien de jardins et d'espaces verts. Nous
+            Notre société de jardinage est spécialisée dans la création, les
+            aménagement et les entretiens de jardins et d'espaces verts. Nous
             sommes passionnés par la nature et l'environnement, et nous mettons
             notre savoir-faire et notre expérience à votre disposition pour
-            réaliser tous vos projets d'aménagement extérieur.
+            réaliser tous vos projets d'aménagements extérieurs.
             <p />
+            <br />
             Nous sommes des professionnels dynamiques et compétents, jardiniers
             paysagistes expérimentés et qualifiés, qui sauront répondre à toutes
             vos demandes. Nous sommes à l'écoute de vos besoins et de vos
-            envies, et nous mettons tout en œuvre pour créer des espaces verts
+            envies, et nous mettrons tout en œuvre pour créer des espaces verts
             uniques et personnalisés, adaptés à votre style de vie et à votre
             budget.
             <p />
-            Que ce soit pour la création d'un nouveau jardin, la rénovation d'un
-            espace existant, ou simplement pour l'entretien régulier de vos
-            plantes et de vos espaces verts, nous sommes là pour vous
-            accompagner tout au long du processus.
+            <br />
+            Nous vous accompagnerons dans la création d’un nouveau jardin, la
+            rénovation d’un espace existant, ainsi que pour l’entretien régulier
+            de vos plantes et espaces verts.
             <p />
+            <br />
             Nous utilisons des techniques et des outils de pointe, respectueux
             de l'environnement, pour vous garantir des résultats de qualité et
             durables. Nous croyons que chaque jardin est unique, et nous nous
