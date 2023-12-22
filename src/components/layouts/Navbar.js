@@ -20,7 +20,7 @@ function Navbar() {
           ></img>
           <h1 className="text-3xl font-bold">
             <Link to="/">
-              Pierr<span className="text-green-600">O</span>Vert
+              Pierr<span className="text-green-600">O</span>vert
             </Link>
           </h1>
         </div>

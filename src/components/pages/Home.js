@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../layouts/Navbar";
+import Banner from "../layouts/Banner";
 import Footer from "../layouts/Footer";
 import ServicesCards from "./ServicesCards";
 import { Link } from "react-router-dom";
@@ -16,6 +17,9 @@ function Home() {
   return (
     <>
       <div className="relative z-10">
+        <Banner />
+      </div>
+      <div className="relative z-10">
         <Navbar />
       </div>
       <div className=" m-1 flex flex-col justify-center items-center lg:mt-10 xl:flex-row opacity-0 animate-slide-in-left">
@@ -27,7 +31,9 @@ function Home() {
           />
         </div>
         <div className="w-full justify-center text-white p-5 mx-2 mt-5 rounded-2xl xl:w-1/2 ">
-          <h1 className="text-4xl font-bold mb-3 text-center">Qui sommes nous ?</h1>
+          <h1 className="text-4xl font-bold mb-3 text-center">
+            Qui sommes nous ?
+          </h1>
           <div className="border border-black border-dotted mb-2"></div>
           <p className=" text-lg p-2 mb-2">
             Nous sommes spécialisés dans l'abattage et l'élagage d'arbres,
@@ -87,41 +93,35 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row sm:my-20 mx-1 sm:mx-10 justify-center animate-slide-in-right">
-        <div className="w-full text-white p-5 xl:w-1/2">
+      <div className="flex flex-col md:flex-row sm:my-20 mx-1 sm:mx-10 justify-center items-center animate-slide-in-right">
+        <div className="text-white px-10 w-full">
           <h1 className="text-center text-4xl mb-4 font-bold lg:text-left">
-            À propos de Pierr<span className="text-green-600">O</span>Vert
+            À propos de Pierr<span className="text-green-600">O</span>vert
           </h1>
           <div className="border border-black border-dashed mb-4 mr-5"></div>
           <FaQuoteLeft />
           <p className="text-left text-lg ml-8 mr-5">
-            Notre société de jardinage est spécialisée dans la création, les
-            aménagement et les entretiens de jardins et d'espaces verts. Nous
-            sommes passionnés par la nature et l'environnement, et nous mettons
-            notre savoir-faire et notre expérience à votre disposition pour
-            réaliser tous vos projets d'aménagements extérieurs.
-            <p />
-            <br />
-            Nous sommes des professionnels dynamiques et compétents, jardiniers
-            paysagistes expérimentés et qualifiés, qui sauront répondre à toutes
-            vos demandes. Nous sommes à l'écoute de vos besoins et de vos
-            envies, et nous mettrons tout en œuvre pour créer des espaces verts
-            uniques et personnalisés, adaptés à votre style de vie et à votre
-            budget.
-            <p />
-            <br />
-            Nous vous accompagnerons dans la création d’un nouveau jardin, la
-            rénovation d’un espace existant, ainsi que pour l’entretien régulier
-            de vos plantes et espaces verts.
-            <p />
-            <br />
-            Nous utilisons des techniques et des outils de pointe, respectueux
-            de l'environnement, pour vous garantir des résultats de qualité et
-            durables. Nous croyons que chaque jardin est unique, et nous nous
-            engageons à créer des espaces verts qui reflètent votre personnalité
-            et vos valeurs.
-            <p />
+            PierrOvert est une entreprise spécialisée dans l'abattage et
+            l'élagage d'arbres, elle se distingue par son engagement envers la
+            préservation de la nature et la transformation esthétique des
+            espaces extérieurs. Avec une équipe d'experts qualifiés, PierrOvert
+            offre des services professionnels, alliant sécurité et respect de
+            l'environnement.
           </p>
+        </div>
+        <div className="flex p-5 w-full justify-center">
+          <img
+            className="rounded-xl shadow-xl h-[500px]"
+            src="images/imgFacePierre.jpeg"
+            alt="imageHome"
+          />
+          <div className="absolute bottom-0 bg-white border border-white rounded-xl p-3">
+            <p className="text-center">
+              Pierre Swinnen
+              <br />
+              <span className="text-green-600">Entrepreneur</span>
+            </p>
+          </div>
         </div>
       </div>
       <ServicesCards />

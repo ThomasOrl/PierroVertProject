@@ -53,7 +53,7 @@ function Footer() {
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <GrMail className="mr-2" />
-              PierroVert@gmail.com
+              PierrOvert@gmail.com
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdPhoneIphone className="mr-2" />+ 32 476 72 20 87
@@ -63,7 +63,7 @@ function Footer() {
         <div className="border border-white border-opacity-50 mb-2"></div>
         <div className="flex flex-col text-center text-white px-4 py-4 sm:flex-row sm:justify-between">
           <span className="flex flex-row justify-center items-center">
-            © 2023 Copyright | PierroVert
+            © 2023 Copyright | PierrOvert
           </span>
           <Link to="https://github.com/ThomasOrl" type="button">
             <span className="flex flex-row justify-center items-center">

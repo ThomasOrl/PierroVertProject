@@ -23,8 +23,27 @@ body {
     var(--vamtam-primary-font-line-height)
     var(--vamtam-primary-font-font-family);
 }
-.white-icon {
-  color: white;
+.imgBx {
+  position: relative;
+  height: 130px;
+  width: 130px;
+  left: 50%;
+  top: -60px;
+  transform: translateX(-50%);
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(3, 0, 60) 25%,
+    rgb(0, 36, 78, 1) 100%
+  );
+}
+.imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .list-item::before {
   content: "";
