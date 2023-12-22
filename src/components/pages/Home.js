@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
+import ServicesCards from "./ServicesCards";
 import { Link } from "react-router-dom";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { GiLindenLeaf } from "react-icons/gi";
@@ -26,29 +27,26 @@ function Home() {
           />
         </div>
         <div className="w-full justify-center text-white p-5 mx-2 mt-5 rounded-2xl xl:w-1/2 ">
-          <h1 className="text-4xl font-bold mb-3 text-center">
-            Votre spécialiste en Parcs et Jardins
-          </h1>
-          <div className=" border border-double mb-2"></div>
+          <h1 className="text-4xl font-bold mb-3 text-center">Qui sommes nous ?</h1>
+          <div className="border border-black border-dotted mb-2"></div>
           <p className=" text-lg p-2 mb-2">
-            Un entrepreneur indépendant en Parcs et Jardins près de chez vous.
-            <br />
-            Paysagiste professionnel qualifié dans la conception, la
-            planification, la construction et l'entretien de jardins, d'espaces
-            verts et de paysages.
-            <br />
-            Les services proposés peuvent être assez variés, allant de
-            l'aménagement à la gestion d'un projet de plus grande envergure.
+            Nous sommes spécialisés dans l'abattage et l'élagage d'arbres,
+            offrant des services professionnels et sécurisés pour transformer
+            votre espace extérieur. Notre équipe qualifiée combine expertise
+            sylvicole, respect de l'environnement et engagement envers la
+            sécurité. Faites confiance à Pierrovert pour sublimer votre paysage
+            avec soin et précision.
           </p>
-          <div className="flex flex-col font-bold justify-center items-center lg:flex-row">
+          <div className="flex flex-col justify-center items-center lg:flex-row">
             <Link
               to="/contact"
               onClick={handleClick}
-              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
             >
-              <icone>
+              <p className="text-white">
                 <IoNewspaperOutline size={50} />
-              </icone>
+              </p>
+
               <h2 className="font-bold text-lg text-green-600">
                 Devis gratuit
               </h2>
@@ -59,7 +57,7 @@ function Home() {
             </Link>
             <Link
               to="/"
-              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
             >
               <icone>
                 <FaHandsHelping size={52} />
@@ -73,7 +71,7 @@ function Home() {
             <Link
               to="/services"
               onClick={handleClick}
-              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-90 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
             >
               <icone>
                 <GiLindenLeaf size={50} />
@@ -92,9 +90,9 @@ function Home() {
       <div className="flex flex-col md:flex-row sm:my-20 mx-1 sm:mx-10 justify-center animate-slide-in-right">
         <div className="w-full text-white p-5 xl:w-1/2">
           <h1 className="text-center text-4xl mb-4 font-bold lg:text-left">
-            La société Pierr<span className="text-green-600">O</span>Vert
+            À propos de Pierr<span className="text-green-600">O</span>Vert
           </h1>
-          <div className="border border-dashed mb-4 mr-5"></div>
+          <div className="border border-black border-dashed mb-4 mr-5"></div>
           <FaQuoteLeft />
           <p className="text-left text-lg ml-8 mr-5">
             Notre société de jardinage est spécialisée dans la création, les
@@ -126,6 +124,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <ServicesCards />
 
       <Footer />
     </>

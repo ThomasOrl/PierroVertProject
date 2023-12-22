@@ -1,19 +1,30 @@
 * {
   margin: 0;
   padding: 0;
+  color: black;
 }
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font: var(--vamtam-primary-font-font-weight)
+    var(--vamtam-primary-font-font-style) var(--vamtam-primary-font-font-size) /
+    var(--vamtam-primary-font-line-height)
+    var(--vamtam-primary-font-font-family);
 
-  background: rgb(45, 70, 51);
+  /*background: rgb(45, 70, 51);
   background: linear-gradient(
     90deg,
     rgba(45, 70, 51, 1) 50%,
     rgba(49, 94, 66, 1) 100%
-  );
+  );*/
+  background-color: rgb(245, 245, 245);
 }
 .navStyle {
-  font-family: "Courier New", Courier, monospace;
+  font: var(--vamtam-primary-font-font-weight)
+    var(--vamtam-primary-font-font-style) var(--vamtam-primary-font-font-size) /
+    var(--vamtam-primary-font-line-height)
+    var(--vamtam-primary-font-font-family);
+}
+.white-icon {
+  color: white;
 }
 .list-item::before {
   content: "";
@@ -60,8 +71,8 @@ body {
   color: #ffffff !important;
 }
 .swiper-pagination-bullet {
-  background-color: #646464 !important; 
-  opacity: 2 !important; 
+  background-color: #646464 !important;
+  opacity: 2 !important;
 }
 .swiper-pagination-bullet-active {
   background-color: #00d419 !important;
@@ -106,19 +117,18 @@ body {
   }
 }
 .title-pages {
-  font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(
+  /*background: linear-gradient(
       to left,
-      rgba(255, 255, 255, 0),
-      rgba(20, 20, 20, 0.409),
-      rgba(255, 255, 255, 0)
+      rgba(99, 99, 99, 0.779),
+      rgba(99, 99, 99, 0.46),
+      rgba(99, 99, 99, 0.779)
     ),
     linear-gradient(
       to right,
-      rgba(255, 255, 255, 0),
-      rgba(20, 20, 20, 0.405),
-      rgba(255, 255, 255, 0)
-    );
+      rgba(99, 99, 99, 0.779),
+      rgba(99, 99, 99, 0.46),
+      rgba(99, 99, 99, 0.779)
+    );*/
 }
 .animate-slide-in-left {
   animation-name: slide-in-left;

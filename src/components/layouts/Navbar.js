@@ -11,24 +11,24 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navStyle flex justify-between items-center py-4 m-2">
+      <nav className="navStyle flex justify-around items-center py-4 m-2">
         <div className="flex items-center">
           <img
             src="images/logo-pierrovert.png"
             alt="logo"
             className="h-10"
           ></img>
-          <h1 className="text-white text-3xl font-bold">
+          <h1 className="text-3xl font-bold">
             <Link to="/">
               Pierr<span className="text-green-600">O</span>Vert
             </Link>
           </h1>
         </div>
-        <ul className="hidden lg:flex text-lg italic items-center">
+        <ul className="hidden lg:flex text-lg items-center">
           <li>
             <Link
               to="/"
-              className="text-white hover:text-zinc-900 font-bold md:mx-6 relative
+              className=" hover:text-zinc-900 font-bold md:mx-6 relative
               list-item"
             >
               Accueil
@@ -37,7 +37,7 @@ function Navbar() {
           <li>
             <Link
               to="/services"
-              className="text-white hover:text-zinc-900 font-bold md:mx-6 relative
+              className=" hover:text-zinc-900 font-bold md:mx-6 relative
                 list-item"
             >
               Services
@@ -46,7 +46,7 @@ function Navbar() {
           <li>
             <Link
               to="/realisations"
-              className="text-white hover:text-zinc-900 font-bold md:mx-6 relative
+              className=" hover:text-zinc-900 font-bold md:mx-6 relative
                 list-item"
             >
               Réalisations
@@ -55,7 +55,7 @@ function Navbar() {
           <li>
             <Link
               to="/contact"
-              className="text-white hover:text-zinc-900 font-bold md:mx-6 relative
+              className=" hover:text-zinc-900 font-bold md:mx-6 relative
                 list-item"
             >
               Contact

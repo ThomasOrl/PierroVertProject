@@ -17,7 +17,7 @@ function Realisations() {
       <div className="relative z-10">
         <Navbar />
       </div>
-      <h1 className="text-center text-white italic title-pages py-3 font-bold text-2xl mt-10">
+      <h1 className="text-center text-white title-pages py-3 font-bold text-2xl mt-10">
         Nos Réalisations
       </h1>
       <Swiper
