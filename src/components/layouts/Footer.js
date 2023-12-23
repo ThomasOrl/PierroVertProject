@@ -9,9 +9,9 @@ import { MdPhoneIphone } from "react-icons/md";
 function Footer() {
   return (
     <>
-      <footer className="bg-black bg-opacity-70 mt-10">
+      <footer className="bg-black bg-opacity-80 mt-10">
         <div className="flex items-center justify-center px-4 py-2 lg:justify-between">
-          <div className="mr-12 hidden lg:block text-xl text-white  font-bold">
+          <div className="mr-12 hidden lg:block text-xl text-white font-bold">
             <span>Retrouvez nous sur les réseaux</span>
           </div>
           <div className="flex justify-center ">
@@ -20,7 +20,7 @@ function Footer() {
               type="button"
               className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase"
             >
-              <BsInstagram className="text-white mx-auto h-full w-4" />
+              <BsInstagram className="text-white mx-auto h-full w-4"/>
             </Link>
 
             <Link

@@ -31,11 +31,11 @@ function Home() {
           />
         </div>
         <div className="w-full justify-center text-white p-5 mx-2 mt-5 rounded-2xl xl:w-1/2 ">
-          <h1 className="text-4xl font-bold mb-3 text-center">
+          <h1 className="text-4xl font-bold mb-3 text-center text-black">
             Qui sommes nous ?
           </h1>
           <div className="border border-black border-dotted mb-2"></div>
-          <p className=" text-lg p-2 mb-2">
+          <p className=" text-lg p-2 mb-2 text-black">
             Nous sommes spécialisés dans l'abattage et l'élagage d'arbres,
             offrant des services professionnels et sécurisés pour transformer
             votre espace extérieur. Notre équipe qualifiée combine expertise
@@ -47,10 +47,10 @@ function Home() {
             <Link
               to="/contact"
               onClick={handleClick}
-              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-80 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
             >
               <p className="text-white">
-                <IoNewspaperOutline size={50} />
+                <IoNewspaperOutline className="icon" size={50} />
               </p>
 
               <h2 className="font-bold text-lg text-green-600">
@@ -63,7 +63,7 @@ function Home() {
             </Link>
             <Link
               to="/"
-              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-80 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
             >
               <icone>
                 <FaHandsHelping size={52} />
@@ -77,7 +77,7 @@ function Home() {
             <Link
               to="/services"
               onClick={handleClick}
-              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-60 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
+              className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-80 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
             >
               <icone>
                 <GiLindenLeaf size={50} />
@@ -93,14 +93,13 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row sm:my-20 mx-1 sm:mx-10 justify-center items-center animate-slide-in-right">
+      <div className="flex flex-col md:flex-row sm:my-20 justify-center items-center animate-slide-in-right">
         <div className="text-white px-10 w-full">
-          <h1 className="text-center text-4xl mb-4 font-bold lg:text-left">
+          <h1 className="text-center text-4xl mb-4 font-bold lg:text-left text-black">
             À propos de Pierr<span className="text-green-600">O</span>vert
           </h1>
-          <div className="border border-black border-dashed mb-4 mr-5"></div>
-          <FaQuoteLeft />
-          <p className="text-left text-lg ml-8 mr-5">
+          <FaQuoteLeft color="black" />
+          <p className="text-left text-lg ml-8 mr-5 text-black">
             PierrOvert est une entreprise spécialisée dans l'abattage et
             l'élagage d'arbres, elle se distingue par son engagement envers la
             préservation de la nature et la transformation esthétique des
