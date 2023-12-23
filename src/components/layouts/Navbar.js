@@ -34,7 +34,7 @@ function Navbar() {
               Accueil
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/services"
               className=" hover:text-zinc-900 font-bold md:mx-6 relative
@@ -42,7 +42,7 @@ function Navbar() {
             >
               Services
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/realisations"
@@ -62,7 +62,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <div onClick={handleNav} className=" text-white block lg:hidden">
+        <div onClick={handleNav} className=" text-black block lg:hidden">
           {nav ? <AiOutlineClose size={28} /> : <RiMenu3Fill size={28} />}
         </div>
         <div
@@ -73,7 +73,7 @@ function Navbar() {
           }
         >
           <h1 className="text-3xl font-bold text-white p-4">
-            Pierr<span className="text-green-600">O</span>Vert
+            Pierr<span className="text-green-600">O</span>vert
           </h1>
           <ul className="flex flex-col text-lg italic p-4">
             <li className="text-white border-b border-gray-600 font-bold p-4 hover:text-green-600">

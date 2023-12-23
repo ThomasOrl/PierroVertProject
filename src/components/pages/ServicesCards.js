@@ -4,6 +4,11 @@ import { AiFillPlusSquare } from "react-icons/ai";
 function ServicesCards() {
   return (
     <>
+      <div className="text-center">
+        <h1 className="inline-block border border-black rounded-2xl mx-auto text-black p-5 my-10 font-bold text-3xl">
+          Nos différents services
+        </h1>
+      </div>
       <div className="relative z-0 flex min-h-screen justify-center animate-slide-in-left">
         <div className="grid grid-cols-1 my-10 mx-5 gap-20 grid-cols-medium grid-cols-large ">
           <div className="group h-96 w-80 [perspective:1000px] ">

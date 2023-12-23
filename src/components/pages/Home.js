@@ -93,8 +93,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row sm:my-20 justify-center items-center animate-slide-in-right">
-        <div className="text-white px-10 w-full">
+      <div className="flex flex-col lg:flex-row sm:my-20 justify-center items-center animate-slide-in-right">
+        <div className="text-white md:pl-20 px-10 w-full">
           <h1 className="text-center text-4xl mb-4 font-bold lg:text-left text-black">
             À propos de Pierr<span className="text-green-600">O</span>vert
           </h1>
@@ -110,9 +110,9 @@ function Home() {
         </div>
         <div className="flex p-5 w-full justify-center">
           <img
-            className="rounded-xl shadow-xl h-[500px]"
+            className="rounded-xl shadow-xl h-[470px]"
             src="images/imgFacePierre.jpeg"
-            alt="imageHome"
+            alt="imageFace Pierre"
           />
           <div className="absolute bottom-0 bg-white border border-white rounded-xl p-3">
             <p className="text-center">
