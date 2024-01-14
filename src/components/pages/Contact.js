@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Navbar from "../layouts/Navbar";
+import Banner from "../layouts/Banner";
 import Footer from "../layouts/Footer";
 import Swal from "sweetalert2";
 import { HiDocumentText } from "react-icons/hi";
@@ -32,6 +33,9 @@ function Contact() {
 
   return (
     <>
+      <div className="relative z-10">
+        <Banner />
+      </div>
       <div className="relative z-10">
         <Navbar />
       </div>

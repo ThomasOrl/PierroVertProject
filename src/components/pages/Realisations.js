@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../layouts/Navbar";
+import Banner from "../layouts/Banner";
 import Footer from "../layouts/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,6 +15,9 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper";
 function Realisations() {
   return (
     <>
+      <div className="relative z-10">
+        <Banner />
+      </div>
       <div className="relative z-10">
         <Navbar />
       </div>

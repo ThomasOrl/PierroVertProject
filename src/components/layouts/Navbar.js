@@ -80,9 +80,6 @@ function Navbar() {
               <Link to="/">Accueil</Link>
             </li>
             <li className="text-white border-b border-gray-600 font-bold p-4 hover:text-green-600">
-              <Link to="/services">Services</Link>
-            </li>
-            <li className="text-white border-b border-gray-600 font-bold p-4 hover:text-green-600">
               <Link to="/realisations">Réalisations</Link>
             </li>
             <li className="text-white font-bold p-4 hover:text-green-600">

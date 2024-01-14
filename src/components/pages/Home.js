@@ -75,8 +75,7 @@ function Home() {
               </p>
             </Link>
             <Link
-              to="/services"
-              onClick={handleClick}
+              to="/"
               className="text-center h-60 max-w-sm p-3 m-1 rounded-lg dark:bg-black dark:bg-opacity-80 dark:hover:bg-black dark:hover:bg-opacity-70 flex justify-center items-center flex-col"
             >
               <icone>
